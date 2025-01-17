@@ -298,7 +298,7 @@ header {
 }
 
 #info-text .info-text-img {
-  background: url('/img/20120211_8014.jpg') no-repeat center center/cover;
+  background: url('../img/20120211_8014.jpg') no-repeat center center/cover;
   height: 50vh;
 }
 
