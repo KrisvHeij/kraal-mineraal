@@ -52,6 +52,10 @@ button {
   text-align: center;
 }
 
+.align-center {
+  margin: 0 auto;
+}
+
 .text-italic {
   font-family: var(--playfair);
   font-style: italic;
@@ -104,6 +108,10 @@ button {
 
 .text-secondary {
   color: var(--secondary-color);
+}
+
+.wrapper {
+  max-width: 68.75rem;
 }
 
 .p-2 {
@@ -262,6 +270,8 @@ header {
 
 #ringmaat .ringmaat-content {
   padding: 2rem 5rem;
+  background: var(--primary-color);
+  color: var(--secondary-color)
 }
 
 #ringmaat .ringmaat-img {
@@ -497,10 +507,10 @@ header {
 }
 
 #footer .contact > div {
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
-#footer .contact .contact-type i {
+#footer .contact .contact-business i {
   margin-right: 0.5rem;
 }
 
@@ -593,10 +603,6 @@ header {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  #ringmaat .ringmaat-content {
-    background: var(--primary-color);
-    color: var(--secondary-color)
-  }
   #ringmaat .ringmaat-img {
     background-position: center 75%;
   }
