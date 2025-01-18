@@ -694,4 +694,8 @@ header {
   #footer > * {
     margin-left: 3rem;
   }
+
+  #footer .contact > div {
+    padding-top: 1rem;
+  }
 }
