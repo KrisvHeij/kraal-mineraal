@@ -112,7 +112,6 @@ button {
 
 .wrapper {
   max-width: 68.75rem;
-  margin: 0 auto;
 }
 
 .p-2 {
@@ -269,9 +268,12 @@ header {
   text-align: center;
 }
 
+#ringmaat {
+  background-color: var(--primary-color);
+}
+
 #ringmaat .ringmaat-content {
   padding: 2rem;
-  background: var(--primary-color);
   color: var(--secondary-color)
 }
 
