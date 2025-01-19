@@ -561,18 +561,8 @@ header {
     border-bottom: 2px solid #62409c;
   }
 
-  /* Remove when finished */
-  .logo {
-    background-color: #fff;
-  }
-
   #hamburger {
     display: none;
-  }
-
-  /* Remove when finished */
-  header .primary-navigation {
-    background-color: #fff;
   }
 
   .primary-navigation {
