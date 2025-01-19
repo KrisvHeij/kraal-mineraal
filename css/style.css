@@ -142,10 +142,13 @@ button {
 /* Header/Navigation */
 
 header {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  background-color: var(--secondary-color);
   border-bottom: 3px solid var(--primary-color);
 }
 
@@ -500,12 +503,11 @@ header {
 
 /* Footer */
 
-#footer {
-  padding: 0 2rem;
+#footer .wrapper {
+  padding: 2rem;
 }
 
 #footer > * {
-  padding-top: 2rem;
   line-height: 1.6;
 }
 
@@ -530,7 +532,7 @@ header {
   margin-bottom: 1rem;
 }
 
-.footer-end {
+#footer .footer-end {
   padding: 1rem 0;
 }
 
@@ -586,13 +588,13 @@ header {
   /* Info text */
 
   #info-text .info-text-content {
-    padding: 2rem 4rem;
+    padding: 4rem;
   }
 
   /* Nieuw Home Section / Page */
 
   #nieuw {
-    padding: 0 4rem;
+    padding: 2rem 4rem;
   }
 
   #nieuw .nieuw-content {
@@ -604,7 +606,7 @@ header {
   }
 
   #ringmaat .ringmaat-content {
-    padding: 2rem 4rem;
+    padding: 2rem 0;
   }
 
   #ringmaat .ringmaat-content h2 {
@@ -620,6 +622,10 @@ header {
   }
 
   /* Favorieten Home Section */
+
+  #favorieten {
+    padding: 2rem 0;
+  }
 
   #favorieten .favorieten-content {
     flex-direction: row;
@@ -681,13 +687,11 @@ header {
 
   /* Footer */
 
-  #footer {
-    display: flex;
-    padding-bottom: 2rem;
-  }
 
-  #footer > * {
-    margin-left: 3rem;
+  #footer .wrapper {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 2rem;
   }
 
   #footer .contact > div {
