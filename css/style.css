@@ -112,6 +112,7 @@ button {
 
 .wrapper {
   max-width: 68.75rem;
+  margin: 0 auto;
 }
 
 .p-2 {
@@ -269,7 +270,7 @@ header {
 }
 
 #ringmaat .ringmaat-content {
-  padding: 2rem 5rem;
+  padding: 2rem;
   background: var(--primary-color);
   color: var(--secondary-color)
 }
@@ -537,10 +538,7 @@ header {
 
 @media (min-width: 62rem) {
   /* Utilities */
-  .container {
-    max-width: 72rem;
-    margin: 0 auto;
-  }
+
   .text-header-main {
     font-size: 3rem;
   }
@@ -593,6 +591,12 @@ header {
     font-size: 5rem;
   }
 
+  /* Info text */
+
+  #info-text .info-text-content {
+    padding: 2rem 4rem;
+  }
+
   /* Nieuw Home Section / Page */
 
   #nieuw {
@@ -605,6 +609,10 @@ header {
 
   #ringmaat .ringmaat-img {
     background-position: center 75%;
+  }
+
+  #ringmaat .ringmaat-content {
+    padding: 2rem 4rem;
   }
 
   #ringmaat .ringmaat-content h2 {
@@ -644,18 +652,13 @@ header {
   #edelstenen .edelstenen-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 2rem;
     padding: 0 4rem 4rem 4rem;
   }
 
   #edelstenen .edelstenen-content > div {
     background: var(--primary-color);
     color: var(--secondary-color);
-  }
-
-  #edelstenen .edelstenen-content .edelstenen-card-content {
-    display: flex;
-    flex-direction: column;
   }
 
   #edelstenen .edelstenen-content > div:nth-child(even) .btn {
