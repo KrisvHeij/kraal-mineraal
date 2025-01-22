@@ -113,6 +113,8 @@ button {
 
 .wrapper {
   max-width: 68.75rem;
+  padding-inline: 2rem;
+  margin: 0 auto;
 }
 
 .p-2 {
@@ -248,10 +250,6 @@ header {
 
 /* Nieuw Home Section / Page */
 
-#nieuw {
-  padding: 0 2rem;
-}
-
 #nieuw .nieuw-header {
   padding: 2rem 0;
 }
@@ -300,7 +298,7 @@ header {
 }
 
 #info-text .info-text-content {
-  padding: 2rem;
+  padding-block: 2rem;
 }
 
 #info-text .info-text-content > p {
@@ -328,8 +326,8 @@ header {
 #favorieten .favorieten-content {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
-  padding: 0 4rem;
+  gap: 2rem;
+  padding: 0 2rem;
 }
 
 #favorieten .favorieten-item {
@@ -446,7 +444,7 @@ header {
 }
 
 #edelstenen .edelstenen-content .edelstenen-card-header img {
-  width: 40%;
+  width: 30%;
   margin: 2rem auto;
 }
 
@@ -504,8 +502,8 @@ header {
 
 /* Footer */
 
-#footer .wrapper {
-  padding: 2rem;
+#footer {
+  padding-top: 2rem;
 }
 
 #footer > * {
@@ -541,8 +539,12 @@ header {
 
 /* Header/Navigation */
 
-@media (min-width: 62rem) {
+@media (min-width: 48rem) {
   /* Utilities */
+
+  /* .wrapper {
+    padding: 0 4rem;
+  } */
 
   .text-header-main {
     font-size: 3rem;
@@ -594,10 +596,6 @@ header {
 
   /* Nieuw Home Section / Page */
 
-  #nieuw {
-    padding: 2rem 4rem;
-  }
-
   #nieuw .nieuw-content {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -607,7 +605,7 @@ header {
   }
 
   #ringmaat .ringmaat-content {
-    padding: 2rem 0;
+    /* padding: 2rem 0; */
   }
 
   #ringmaat .ringmaat-content h2 {
@@ -650,15 +648,18 @@ header {
 
   #edelstenen .edelstenen-card {
     display: grid;
-    /* align-content: start; */
+    width: 100%;
   }
 
   #edelstenen .edelstenen-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    /* padding: 0 4rem 4rem 4rem; */
     padding-bottom: 4rem;
+  }
+
+  #edelstenen .edelstenen-content .edelstenen-card-header img {
+    width: 40%;
   }
 
   #edelstenen .edelstenen-content .edelstenen-card-content p {
@@ -666,14 +667,17 @@ header {
     font-size: 0.875rem;
   }
 
-  /* Extra sterrenbeeld class van maken */
-  #edelstenen .edelstenen-content .edelstenen-card-content p:last-child {
+  #edelstenen .edelstenen-content .edelstenen-card-content p.text-center {
     text-align: center;
   }
 
   #edelstenen .edelstenen-content > div {
     background: var(--primary-color);
     color: var(--secondary-color);
+  }
+
+  #edelstenen .edelstenen-content .btn {
+    font-size: 0.875rem;
   }
 
   #edelstenen .edelstenen-content > div:nth-child(even) .btn {
