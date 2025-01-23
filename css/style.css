@@ -107,6 +107,10 @@ button {
   font-size: 1.25rem;
 }
 
+.fs-small {
+font-size: 0.875rem;
+}
+
 .text-secondary {
   color: var(--secondary-color);
 }
@@ -535,19 +539,19 @@ header {
   padding: 1rem 0;
 }
 
-/* Desktop Styling */
+/* Medium screen Styling */
 
 /* Header/Navigation */
 
 @media (min-width: 48rem) {
   /* Utilities */
 
-  /* .wrapper {
-    padding: 0 4rem;
-  } */
-
   .text-header-main {
     font-size: 3rem;
+  }
+
+  .logo {
+    max-width: 400px;
   }
 
   .primary-navigation {
@@ -658,6 +662,12 @@ header {
     padding-bottom: 4rem;
   }
 
+  #edelstenen .edelstenen-content .edelstenen-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   #edelstenen .edelstenen-content .edelstenen-card-header img {
     width: 40%;
   }
@@ -691,10 +701,6 @@ header {
     opacity: 0.7;
   }
 
-  #edelstenen .edelstenen-content .btn-container {
-    align-self: end;
-  }
-
   /* Contact Page */
 
   #contact {
@@ -721,5 +727,22 @@ header {
 
   #footer .contact > div {
     padding-top: 1rem;
+  }
+}
+
+/* Large screen styling */
+
+@media (min-width: 68rem) {
+
+  #edelstenen .edelstenen-content {
+    grid-template-columns: repeat(3, minmax(auto, 20.25rem));
+  }
+
+  #edelstenen .edelstenen-content .edelstenen-card-header h2 {
+    font-size: 1.75rem;
+  }
+
+  #edelstenen .edelstenen-content .edelstenen-card-header p {
+    font-size: 1rem;
   }
 }
