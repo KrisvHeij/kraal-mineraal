@@ -734,6 +734,16 @@ header {
 
 @media (min-width: 68rem) {
 
+  /* Header */
+
+  header {
+    padding-inline: 5rem;
+  }
+
+  .primary-navigation li {
+    padding-right: 2rem;
+  }
+
   #edelstenen .edelstenen-content {
     grid-template-columns: repeat(3, minmax(auto, 20.25rem));
   }
