@@ -721,7 +721,7 @@ header {
 
   #footer .wrapper {
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
     padding-bottom: 2rem;
   }
 
