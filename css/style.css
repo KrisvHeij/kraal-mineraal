@@ -16,6 +16,7 @@ body {
   font-family: var(--poppins);
   background-color: var(--secondary-color);
   color: var(--primary-color);
+  line-height: 1.6;
 }
 
 * {
@@ -460,6 +461,57 @@ header {
 
 .assortiment-header {
   padding: 2rem 0;
+}
+
+.assortiment-item {
+  margin-bottom: 2rem;
+}
+
+.assortiment-img-slider {
+  width: 100%;
+  height: 250px;
+  background-image: url("../img/nieuw/SAGA06030185.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: animate-bg-img 60s infinite;
+}
+
+@keyframes animate-bg-img {
+  0%,
+  19% {
+    background-image: url("../img/nieuw/SAGA06030185.JPG");
+  }
+  21%,
+  39% {
+    background-image: url("../img/nieuw/SAME04006.jpg");
+  }
+  41%,
+  59% {
+    background-image: url("../img/nieuw/SCAR06080180.JPG");
+  }
+  61%,
+  79% {
+    background-image: url("../img/nieuw/SKYA04002.jpg");
+  }
+  81%,
+  99% {
+    background-image: url("../img/nieuw/SLAB02004.jpg");
+  }
+}
+
+.assortiment-text {
+  padding: 1rem;
+}
+
+.assortiment-text h2 {
+  margin-bottom: 1rem;
+}
+
+.assortiment-item:nth-child(1) {
+  /* padding: 1rem; */
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 /* Contact Page */
