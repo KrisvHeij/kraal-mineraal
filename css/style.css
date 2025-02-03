@@ -463,10 +463,6 @@ header {
   padding: 2rem 0;
 }
 
-.assortiment-item {
-  margin-bottom: 2rem;
-}
-
 .assortiment-img-slider {
   width: 100%;
   height: 250px;
@@ -501,17 +497,15 @@ header {
 }
 
 .assortiment-text {
-  padding: 1rem;
+  padding: 2rem 2rem 4rem 2rem;
 }
 
 .assortiment-text h2 {
   margin-bottom: 1rem;
 }
 
-.assortiment-item:nth-child(1) {
-  /* padding: 1rem; */
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+.assortiment-item.wrapper {
+  padding-inline: 0;
 }
 
 /* Contact Page */
