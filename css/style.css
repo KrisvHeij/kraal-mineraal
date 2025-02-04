@@ -755,6 +755,28 @@ header {
     height: 50vh;
   }
 
+  /* Assortiment Page */
+
+  .assortiment-header {
+    margin-bottom: 7rem;
+  }
+
+  .assortiment-item {
+    position: relative;
+  }
+
+  .assortiment-img-slider {
+    width: 40%;
+    position: absolute;
+    top: -20%;
+  }
+
+  .assortiment-text {
+    width: 60%;
+    margin-left: auto;
+    padding: 4rem 2rem 4rem 2rem;
+  }
+
   /* Edelstenen Page */
 
   #edelstenen .edelstenen-card {
