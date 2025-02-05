@@ -158,11 +158,12 @@ header {
   width: 100%;
   background-color: var(--secondary-color);
   border-bottom: 3px solid var(--primary-color);
+  z-index: 10;
 }
 
 .primary-navigation {
   position: fixed;
-  z-index: 100;
+  z-index: 10;
   inset: 0 0 0 30%;
   flex-direction: column;
   padding: min(20vh, 8rem) 2rem;
@@ -464,88 +465,87 @@ header {
 }
 
 .assortiment-img-slider {
-  width: 100%;
-  height: 250px;
+  height: 15.625rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .img-slider-sieraden {
-  background-image: url("../img/assortiment/SAQU02012.jpg");
+  background-color: var(--primary-color);
   animation: bg-img-slider-sieraden 50s infinite;
 }
 
 @keyframes bg-img-slider-sieraden {
   0%,
-  19% {
+  18% {
     background-image: url("../img/assortiment/SAQU02012.jpg");
   }
-  21%,
-  39% {
+  22%,
+  38% {
     background-image: url("../img/assortiment/SSAF04001.jpg");
   }
-  41%,
-  59% {
+  42%,
+  58% {
     background-image: url("../img/assortiment/SROB06011175.jpg");
   }
-  61%,
-  79% {
+  62%,
+  78% {
     background-image: url("../img/assortiment/SCAR02170.jpg");
   }
-  81%,
+  82%,
   100% {
     background-image: url("../img/assortiment/SMAA041670.jpg");
   }
 }
 
 .img-slider-mineralen {
-  background-image: url("../img/assortiment/20120211_8015.jpg");
+  background-color: var(--primary-color);
   animation: bg-img-slider-mineralen 50s infinite;
 }
 
 @keyframes bg-img-slider-mineralen {
   0%,
-  19% {
+  18% {
     background-image: url("../img/assortiment/20120211_8015.jpg");
   }
-  21%,
-  39% {
+  22%,
+  38% {
     background-image: url("../img/assortiment/20120211_8011.jpg");
   }
-  41%,
-  59% {
+  42%,
+  58% {
     background-image: url("../img/assortiment/IMG_5946.JPG");
   }
-  61%,
-  79% {
+  62%,
+  78% {
     background-image: url("../img/assortiment/20120211_8014.jpg");
   }
-  81%,
-  99% {
+  82%,
+  100% {
     background-image: url("../img/assortiment/20120303_8135.jpg");
   }
 }
 
 .img-slider-kralen {
-  background-image: url("../img/assortiment/20120218_8054.jpg");
+  background-color: var(--primary-color);
   animation: bg-img-slider-kralen 40s infinite;
 }
 
 @keyframes bg-img-slider-kralen {
   0%,
-  24% {
+  23% {
     background-image: url("../img/assortiment/20120218_8054.jpg");
   }
-  26%,
+  27%,
   48% {
     background-image: url("../img/assortiment/Kralen2.jpg");
   }
-  50%,
+  52%,
   74% {
     background-image: url("../img/assortiment/Kralen5.jpg");
   }
-  76%,
+  77%,
   100% {
     background-image: url("../img/assortiment/Kralen1.jpg");
   }
@@ -556,7 +556,7 @@ header {
 }
 
 .assortiment-text h2 {
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .assortiment-item.wrapper {
@@ -758,7 +758,7 @@ header {
   /* Assortiment Page */
 
   .assortiment-header {
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
   }
 
   .assortiment-item {
@@ -768,7 +768,7 @@ header {
   .assortiment-img-slider {
     width: 40%;
     position: absolute;
-    top: -20%;
+    top: -3rem;
   }
 
   .assortiment-text {
@@ -872,6 +872,26 @@ header {
   .primary-navigation li {
     padding-right: 2rem;
   }
+
+  /* Assortiment Page */
+
+  #assortiment-sieraden,
+  #assortiment-mineralen,
+  #assortiment-kralen {
+    height: 476.8px;
+  }
+
+  .assortiment-img-slider {
+    width: 35%;
+    height: 300px;
+  }
+
+  .assortiment-text {
+    width: 65%;
+    padding: 6rem 2rem 6rem 6rem;
+  }
+
+  /* Edelstenen Page */
 
   #edelstenen .edelstenen-content {
     grid-template-columns: repeat(3, minmax(auto, 20.25rem));
