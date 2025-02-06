@@ -469,6 +469,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  transition: animation 250ms ease;
 }
 
 .img-slider-sieraden {
@@ -519,7 +520,7 @@ header {
   }
   62%,
   78% {
-    background-image: url("../img/assortiment/20120211_8014.jpg");
+    background-image: url("../img/assortiment/Agaat.jpg");
   }
   82%,
   100% {
@@ -603,26 +604,18 @@ header {
   border: none;
 }
 
-#openingstijden .openingstijden-content {
-  padding: 2rem;
-}
-
-#openingstijden .table-openingstijden tr td {
-  padding-right: 3rem;
-}
-
 /* Footer */
 
 #footer {
   padding-top: 2rem;
 }
 
-#footer > * {
-  line-height: 1.6;
-}
-
 #footer .contact > div {
   padding-top: 2rem;
+}
+
+#footer h3 {
+  font-size: 1.5rem;
 }
 
 #footer .contact .contact-business i {
@@ -634,12 +627,18 @@ header {
   margin-right: 1rem;
 }
 
-#footer .service {
+#footer .contact,
+#footer .service,
+#footer .openingstijden {
   padding-bottom: 2rem;
 }
 
 #footer .service .service-header {
   margin-bottom: 1rem;
+}
+
+.openingstijden .table-openingstijden tr td {
+  padding-right: 3rem;
 }
 
 #footer .footer-end {
