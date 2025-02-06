@@ -395,69 +395,6 @@ header {
   height: 50ch;
 }
 
-/* Edelstenen Page */
-
-#edelstenen .edelstenen-header {
-  padding: 2rem;
-}
-
-#edelstenen .edelstenen-shortcuts {
-  max-width: 600px;
-  margin: 2rem auto 0 auto;
-}
-
-#edelstenen .edelstenen-shortcuts ul {
-  display: flex;
-  justify-content: space-between;
-}
-
-#edelstenen .edelstenen-content > div:nth-child(odd) {
-  background: var(--primary-color);
-  color: var(--secondary-color);
-}
-
-#edelstenen .edelstenen-content > div:nth-child(odd) .btn {
-  background: var(--secondary-color);
-  color: var(--primary-color);
-  padding: 1rem 2rem;
-}
-
-#edelstenen .edelstenen-content > div:nth-child(odd) .btn:hover {
-  opacity: 0.7;
-}
-
-#edelstenen .edelstenen-content > div:nth-child(even) .btn {
-  background: var(--primary-color);
-  color: var(--secondary-color);
-  padding: 1rem 2rem;
-}
-
-#edelstenen .edelstenen-content > div:nth-child(even) .btn:hover {
-  background: var(--dark-color);
-}
-
-#edelstenen .edelstenen-content .edelstenen-card-content > * {
-  margin-top: 1rem;
-}
-
-#edelstenen .edelstenen-content .edelstenen-card-header h2 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-#edelstenen .edelstenen-content .edelstenen-card-header p {
-  font-size: 1.25rem;
-}
-
-#edelstenen .edelstenen-content .edelstenen-card-header img {
-  width: 30%;
-  margin: 2rem auto;
-}
-
-#edelstenen .edelstenen-content .edelstenen-card button {
-  margin: 3rem 0 2rem 0;
-}
-
 /* Assortiment Page */
 
 .assortiment-header {
@@ -564,6 +501,71 @@ header {
   padding-inline: 0;
 }
 
+/* Edelstenen Page */
+
+#edelstenen .edelstenen-header {
+  padding: 2rem;
+}
+
+#edelstenen .edelstenen-shortcuts {
+  max-width: 600px;
+  margin: 2rem auto 0 auto;
+}
+
+#edelstenen .edelstenen-shortcuts ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+#edelstenen .edelstenen-content > div:nth-child(odd) {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+#edelstenen .edelstenen-content > div:nth-child(odd) .btn {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 1rem 2rem;
+}
+
+#edelstenen .edelstenen-content > div:nth-child(odd) .btn:hover {
+  opacity: 0.7;
+}
+
+#edelstenen .edelstenen-content > div:nth-child(even) .btn {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 1rem 2rem;
+}
+
+#edelstenen .edelstenen-content > div:nth-child(even) .btn:hover {
+  background: var(--dark-color);
+}
+
+#edelstenen .edelstenen-content .edelstenen-card-content > * {
+  margin-top: 1rem;
+}
+
+#edelstenen .edelstenen-content .edelstenen-card-header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#edelstenen .edelstenen-content .edelstenen-card-header p {
+  font-size: 1.25rem;
+}
+
+#edelstenen .edelstenen-content .edelstenen-card-header img {
+  width: 30%;
+  margin: 2rem auto;
+}
+
+#edelstenen .edelstenen-content .edelstenen-card button {
+  margin: 3rem 0 2rem 0;
+}
+
 /* Contact Page */
 
 #contact {
@@ -616,6 +618,10 @@ header {
 
 #footer h3 {
   font-size: 1.5rem;
+}
+
+#footer .contact .contact-business p {
+  margin-bottom: 0.25rem;
 }
 
 #footer .contact .contact-business i {
@@ -777,6 +783,10 @@ header {
   }
 
   /* Edelstenen Page */
+
+  #edelstenen .edelstenen-shortcuts ul {
+    flex-direction: row;
+  }
 
   #edelstenen .edelstenen-card {
     display: grid;
