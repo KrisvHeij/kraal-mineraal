@@ -612,7 +612,12 @@ header {
   padding-top: 2rem;
 }
 
-#footer .contact > div {
+#footer .contact-adres {
+  padding-top: 1rem;
+}
+
+#footer .contact-business,
+#footer .contact-social {
   padding-top: 2rem;
 }
 
@@ -639,9 +644,9 @@ header {
   padding-bottom: 2rem;
 }
 
-#footer .service .service-header {
+/* #footer .service .service-header {
   margin-bottom: 1rem;
-}
+} */
 
 .openingstijden .table-openingstijden tr td {
   padding-right: 3rem;
@@ -858,8 +863,8 @@ header {
 
 
   #footer .wrapper {
-    display: flex;
-    gap: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
     padding-bottom: 2rem;
   }
 
