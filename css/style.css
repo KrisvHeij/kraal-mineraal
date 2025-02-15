@@ -447,23 +447,23 @@ header {
 @keyframes bg-img-slider-mineralen {
   0%,
   18% {
-    background-image: url("../img/assortiment/20120211_8015.jpg");
+    background-image: url("../img/assortiment/Malachiet_1.jpg");
   }
   22%,
   38% {
-    background-image: url("../img/assortiment/20120211_8011.jpg");
+    background-image: url("../img/assortiment/Bergkristal_1.jpg");
   }
   42%,
   58% {
-    background-image: url("../img/assortiment/IMG_5946.JPG");
+    background-image: url("../img/assortiment/Tijgeroog_1.JPG");
   }
   62%,
   78% {
-    background-image: url("../img/assortiment/Agaat.jpg");
+    background-image: url("../img/assortiment/Groene_Calciet_1.jpg");
   }
   82%,
   100% {
-    background-image: url("../img/assortiment/20120303_8135.jpg");
+    background-image: url("../img/assortiment/Amethist_1.jpg");
   }
 }
 
