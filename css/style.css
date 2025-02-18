@@ -248,12 +248,28 @@ header {
   font-size: 1.5rem;
   color: var(--secondary-color);
   margin-top: 15vh;
-  /* padding: 0 3rem; */
   letter-spacing: 2px;
 }
 
 #showcase h1 span {
   font-size: clamp(2.5rem, -15.5rem + 80vw, 4rem);
+}
+
+.text-tekoop {
+  background-color: var(--primary-color);
+  padding: 2.5rem 0;
+}
+
+.text-tekoop p {
+  margin: 1.5rem 0;
+}
+
+.text-tekoop p:last-of-type {
+  line-height: 1.8;
+}
+
+.text-tekoop span {
+  font-size: clamp(2rem, 1.7629rem + 1.084vw, 2.5rem);
 }
 
 /* Nieuw Home Section / Page */
