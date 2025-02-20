@@ -680,10 +680,6 @@ header {
   padding-top: 2rem;
 }
 
-#footer .contact-adres {
-  padding-top: 1rem;
-}
-
 #footer .contact-business,
 #footer .contact-social {
   padding-top: 2rem;
@@ -938,10 +934,6 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
     padding-bottom: 2rem;
-  }
-
-  #footer .contact > div {
-    padding-top: 1rem;
   }
 }
 
