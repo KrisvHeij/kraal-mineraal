@@ -420,90 +420,140 @@ header {
 }
 
 .assortiment-img-slider {
+  position: relative;
   height: 15.625rem;
+  background-color: var(--primary-color);
+}
+
+.img-slider-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* transition: all 250ms ease; */
 }
 
-.img-slider-sieraden {
-  background-color: var(--primary-color);
-  animation: bg-img-slider-sieraden 50s infinite;
+/* Image sliders Sieraden */
+
+.img-slider-sieraden-1 {
+  background-image: url("../img/assortiment/SAQU02012.jpg");
+  opacity: 1;
 }
 
-@keyframes bg-img-slider-sieraden {
+.img-slider-sieraden-2 {
+  background-image: url("../img/assortiment/SSAF04001.jpg");
+  animation: img-slider-2 40s infinite;
+}
+
+.img-slider-sieraden-3 {
+  background-image: url("../img/assortiment/SROB06011175.jpg");
+  animation: img-slider-3 40s infinite;
+}
+
+.img-slider-sieraden-4 {
+  background-image: url("../img/assortiment/SCAR02170.jpg");
+  animation: img-slider-4 40s infinite;
+}
+
+.img-slider-sieraden-5 {
+  background-image: url("../img/assortiment/SCAR02170.jpg");
+  animation: img-slider-5 40s infinite;
+}
+
+/* Image sliders Mineralen */
+
+.img-slider-mineralen-1 {
+  background-image: url("../img/assortiment/Malachiet_1.jpg");
+  opacity: 1;
+}
+
+.img-slider-mineralen-2 {
+  background-image: url("../img/assortiment/Bergkristal_1.jpg");
+  animation: img-slider-2 40s infinite;
+}
+
+.img-slider-mineralen-3 {
+  background-image: url("../img/assortiment/Tijgeroog_1.JPG");
+  animation: img-slider-3 40s infinite;
+}
+
+.img-slider-mineralen-4 {
+  background-image: url("../img/assortiment/Groene_Calciet_1.jpg");
+  animation: img-slider-4 40s infinite;
+}
+
+.img-slider-mineralen-5 {
+  background-image: url("../img/assortiment/Amethist_1.jpg");
+  animation: img-slider-5 40s infinite;
+}
+
+/* Image sliders Kralen */
+
+.img-slider-kralen-1 {
+  background-image: url("../img/assortiment/20120218_8054.jpg");
+  opacity: 1;
+}
+
+.img-slider-kralen-2 {
+  background-image: url("../img/assortiment/Kralen2.jpg");
+  animation: img-slider-2 40s infinite;
+}
+
+.img-slider-kralen-3 {
+  background-image: url("../img/assortiment/Kralen5.jpg");
+  animation: img-slider-3 40s infinite;
+}
+
+.img-slider-kralen-4 {
+  background-image: url("../img/assortiment/Kralen1.jpg");
+  animation: img-slider-4 40s infinite;
+}
+
+.img-slider-kralen-5 {
+  background-image: url("../img/assortiment/20120218_8024.jpg");
+  animation: img-slider-5 40s infinite;
+}
+
+/* Keyframes for image sliders */
+
+@keyframes img-slider-2 {
   0%,
-  18% {
-    background-image: url("../img/assortiment/SAQU02012.jpg");
+  15% {
+    opacity: 0;
   }
-  22%,
-  38% {
-    background-image: url("../img/assortiment/SSAF04001.jpg");
-  }
-  42%,
-  58% {
-    background-image: url("../img/assortiment/SROB06011175.jpg");
-  }
-  62%,
-  78% {
-    background-image: url("../img/assortiment/SCAR02170.jpg");
-  }
-  82%,
-  100% {
-    background-image: url("../img/assortiment/SMAA041670.jpg");
+  20% {
+    opacity: 1;
   }
 }
 
-.img-slider-mineralen {
-  background-color: var(--primary-color);
-  animation: bg-img-slider-mineralen 50s infinite;
-}
-
-@keyframes bg-img-slider-mineralen {
+@keyframes img-slider-3 {
   0%,
-  18% {
-    background-image: url("../img/assortiment/Malachiet_1.jpg");
+  40% {
+    opacity: 0;
   }
-  22%,
-  38% {
-    background-image: url("../img/assortiment/Bergkristal_1.jpg");
-  }
-  42%,
-  58% {
-    background-image: url("../img/assortiment/Tijgeroog_1.JPG");
-  }
-  62%,
-  78% {
-    background-image: url("../img/assortiment/Groene_Calciet_1.jpg");
-  }
-  82%,
-  100% {
-    background-image: url("../img/assortiment/Amethist_1.jpg");
+  45% {
+    opacity: 1;
   }
 }
 
-.img-slider-kralen {
-  background-color: var(--primary-color);
-  animation: bg-img-slider-kralen 40s infinite;
-}
-
-@keyframes bg-img-slider-kralen {
+@keyframes img-slider-4 {
   0%,
-  23% {
-    background-image: url("../img/assortiment/20120218_8054.jpg");
+  60% {
+    opacity: 0;
   }
-  27%,
-  48% {
-    background-image: url("../img/assortiment/Kralen2.jpg");
+  65% {
+    opacity: 1;
   }
-  52%,
-  74% {
-    background-image: url("../img/assortiment/Kralen5.jpg");
+}
+
+@keyframes img-slider-5 {
+  0%,
+  80% {
+    opacity: 0;
   }
-  77%,
-  100% {
-    background-image: url("../img/assortiment/Kralen1.jpg");
+  85% {
+    opacity: 1;
   }
 }
 
