@@ -8,6 +8,7 @@ dark-color: 442c6d / rgb(68,44,109)
   --primary-color: #62409c;
   --secondary-color: #f5f5f5;
   --dark-color: #442c6d;
+  --sale-color: #e5de50;
   --poppins: 'Poppins', sans-serif;
   --playfair: 'Playfair Display', serif;
   scroll-behavior: smooth;
@@ -246,19 +247,22 @@ header {
 
 #showcase div {
   margin-top: 15vh;
+  color: var(--secondary-color)
 }
 
 #showcase h1 {
-  font-size: 3rem;
-  color: var(--secondary-color);
-  /* margin-top: 15vh; */
+  font-size: clamp(3rem, 1.9481rem + 4.4881vw, 5rem);
   letter-spacing: 2px;
 }
 
-/* #showcase h1 span {
-  font-size: clamp(2.5rem, -15.5rem + 80vw, 4rem);
-  font-size: 3rem;
-} */
+#showcase p {
+  font-size: clamp(1rem, 0.6055rem + 1.683vw, 1.75rem);
+}
+
+#showcase .sale-percentage {
+  font-size: clamp(2rem, 1.4741rem + 2.244vw, 3rem);
+  color: var(--sale-color);
+}
 
 .text-tekoop {
   background-color: var(--primary-color);
@@ -775,11 +779,11 @@ header {
   /* Showcase Home */
 
   #showcase h1 {
-    margin-top: 20vh;
+    /* margin-top: 20vh; */
   }
 
   #showcase h1 {
-    font-size: 5rem;
+    /* font-size: 5rem; */
   }
 
   /* Info text */
