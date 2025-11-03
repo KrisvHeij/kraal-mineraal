@@ -244,16 +244,21 @@ header {
   border-bottom: 3px solid var(--primary-color);
 }
 
-#showcase h1 {
-  font-size: 1.5rem;
-  color: var(--secondary-color);
+#showcase div {
   margin-top: 15vh;
+}
+
+#showcase h1 {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  /* margin-top: 15vh; */
   letter-spacing: 2px;
 }
 
-#showcase h1 span {
+/* #showcase h1 span {
   font-size: clamp(2.5rem, -15.5rem + 80vw, 4rem);
-}
+  font-size: 3rem;
+} */
 
 .text-tekoop {
   background-color: var(--primary-color);
@@ -773,7 +778,7 @@ header {
     margin-top: 20vh;
   }
 
-  #showcase h1 span {
+  #showcase h1 {
     font-size: 5rem;
   }
 
