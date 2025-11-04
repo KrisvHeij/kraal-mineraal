@@ -776,16 +776,6 @@ header {
     border-bottom: 2px solid #62409c;
   }
 
-  /* Showcase Home */
-
-  #showcase h1 {
-    /* margin-top: 20vh; */
-  }
-
-  #showcase h1 {
-    /* font-size: 5rem; */
-  }
-
   /* Info text */
 
   #info-text .info-text-content {
@@ -800,10 +790,6 @@ header {
 
   #ringmaat .ringmaat-img {
     background-position: center 75%;
-  }
-
-  #ringmaat .ringmaat-content {
-    /* padding: 2rem 0; */
   }
 
   #ringmaat .ringmaat-content h2 {
