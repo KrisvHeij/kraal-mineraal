@@ -266,6 +266,29 @@ header {
   color: var(--sale-color);
 }
 
+/* Extra openingstijden */
+.extra-opening {
+  display: grid;
+  gap: 1rem;
+  padding-block: 2.5rem;
+}
+
+.opening-header {
+  font-size: clamp(2rem, 1.7629rem + 1.084vw, 2.5rem);
+}
+
+.opening-text {
+  margin-block: 1rem;
+  line-height: 1.8;
+}
+
+.opening-tijd {
+  font-size: clamp(1rem, 0.8508rem + 0.6364vw, 1.5rem);
+  line-height: 1.8;
+  font-weight: 600;
+}
+
+/* Te koop section */
 .text-tekoop {
   background-color: var(--primary-color);
   padding: 2.5rem 0;
@@ -782,6 +805,22 @@ header {
 
   #info-text .info-text-content {
     padding: 4rem;
+  }
+
+  /* Extra openingstijden */
+
+  .extra-opening {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .opening-img {
+    display: grid;
+  }
+
+  .opening-img img {
+    justify-self: flex-end;
+    align-self: flex-end;
+    max-width: 16rem;
   }
 
   /* Nieuw Home Section / Page */
