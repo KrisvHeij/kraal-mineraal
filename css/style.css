@@ -247,10 +247,6 @@ header {
 
 #showcase div {
   margin-top: 15vh;
-<<<<<<< HEAD
-=======
-  /* color: var(--secondary-color) */
->>>>>>> sale
 }
 
 #showcase h1 {
@@ -261,11 +257,7 @@ header {
 
 #showcase p {
   font-size: clamp(1rem, 0.6055rem + 1.683vw, 1.75rem);
-<<<<<<< HEAD
   color: var(--secondary-color);
-=======
-  color: var(--secondary-color)
->>>>>>> sale
 }
 
 #showcase .sale-percentage {
