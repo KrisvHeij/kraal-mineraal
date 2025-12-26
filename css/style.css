@@ -306,12 +306,13 @@ header {
   padding: 2.5rem 0;
 }
 
-.text-uitverkoop p {
-  margin: 1.5rem 0;
+.text-uitverkoop-header {
+  font-size: clamp(1.5rem, 1.1961rem + 1.2966vw, 2rem);
 }
 
-.text-uitverkoop p:first-of-type {
-  font-size: clamp(1.5rem, 1.1961rem + 1.2966vw, 2rem);
+.text-uitverkoop p {
+  margin: 1.5rem 0;
+  letter-spacing: 1px;
 }
 
 .text-uitverkoop p:last-of-type {
@@ -320,6 +321,36 @@ header {
 
 .text-uitverkoop span {
   font-size: clamp(2rem, 1.7629rem + 1.084vw, 2.5rem);
+}
+
+/* Voorwaarden opheffingsuitverkoop */
+.sale-conditions {
+  padding-block-end: 2rem;
+  padding-inline: 2rem;
+  border-radius: 8px;
+  color: inherit;
+}
+
+.sale-conditions h2 {
+  margin-bottom: 1rem;
+}
+
+.sale-conditions details {
+  margin-bottom: 0.75rem;
+}
+
+.sale-conditions summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sale-conditions summary:focus {
+  outline: 2px solid #62409c;
+  outline-offset: 4px;
+}
+
+.sale-conditions details p {
+  font-size: 1rem;
 }
 
 /* Nieuw Home Section / Page */
