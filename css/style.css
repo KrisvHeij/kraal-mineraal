@@ -233,6 +233,18 @@ header {
   opacity: 0;
 }
 
+/* Webshop message */
+.webshop-message {
+  text-align: center;
+  padding-block: clamp(1rem, calc(0.523rem + 2.036vw), 1.5rem);
+  padding-inline: 1rem;
+  background-color: var(--primary-color);
+}
+
+.webshop-message p {
+  font-size: clamp(0.75rem, calc(0.392rem + 1.527vw), 1.13rem);
+  color: var(--sale-color);
+}
 /* Showcase Home */
 
 #showcase {
