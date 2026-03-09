@@ -274,13 +274,18 @@ header {
 }
 
 #showcase p {
-  font-size: clamp(2rem, 1.3922rem + 2.5932vw, 3rem);
+  /* font-size: clamp(2rem, 1.3922rem + 2.5932vw, 3rem); */
+  font-size: clamp(1.5rem, 0.5458rem + 4.0712vw, 2.5rem);
   color: var(--secondary-color);
 }
 
 #showcase .sale-percentage {
   font-size: clamp(2rem, 1.4741rem + 2.244vw, 4rem);
   color: var(--sale-color);
+}
+
+#showcase .einddatum {
+  font-size: clamp(1rem, 0.5229rem + 2.0356vw, 1.5rem);
 }
 
 /* Uitverkoop sectie */
