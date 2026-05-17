@@ -271,22 +271,22 @@ header {
   font-size: clamp(1.75rem, 1.0788rem + 2.864vw, 4rem);
   letter-spacing: 2px;
   color: var(--secondary-color);
+  max-width: 46rem;
 }
 
-#showcase p {
-  /* font-size: clamp(2rem, 1.3922rem + 2.5932vw, 3rem); */
+/* #showcase p {
   font-size: clamp(1.5rem, 0.5458rem + 4.0712vw, 2.5rem);
   color: var(--secondary-color);
-}
+} */
 
-#showcase .sale-percentage {
+/* #showcase .sale-percentage {
   font-size: clamp(2rem, 1.4741rem + 2.244vw, 4rem);
   color: var(--sale-color);
-}
+} */
 
-#showcase .einddatum {
+/* #showcase .einddatum {
   font-size: clamp(1rem, 0.5229rem + 2.0356vw, 1.5rem);
-}
+} */
 
 /* Uitverkoop sectie */
 .opheffing-container {
