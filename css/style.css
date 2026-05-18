@@ -268,10 +268,10 @@ header {
 } */
 
 #showcase h1 {
-  font-size: clamp(1.75rem, 1.0788rem + 2.864vw, 4rem);
+  font-size: clamp(1.75rem, calc(1.023rem + 3.636vw), 3.75rem);
   letter-spacing: 2px;
   color: var(--secondary-color);
-  max-width: 46rem;
+  max-width: 50rem;
 }
 
 /* #showcase p {
@@ -774,9 +774,9 @@ header {
 
 /* Footer */
 
-#footer {
+/* #footer {
   padding-top: 2rem;
-}
+} */
 
 #footer .contact-business,
 #footer .contact-social {
@@ -1053,7 +1053,7 @@ header {
 
   /* Showcase */
   #showcase {
-    min-height: 60vh;
+    min-height: 55vh;
   }
 
   /* Assortiment Page */
